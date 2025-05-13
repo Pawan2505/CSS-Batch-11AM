@@ -1,0 +1,23 @@
+/* class selector */
+.container{
+    color: red;
+}
+
+
+.box{
+    background-color: green;
+}
+
+/* id selector */
+
+#para{
+    letter-spacing: 5px;
+    font-size: 24px;
+}
+
+/* tag selector */
+
+div{
+    font-size: 40px;
+    font-family: cursive;
+}
