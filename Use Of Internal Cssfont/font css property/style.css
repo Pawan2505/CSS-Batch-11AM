@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Great+Vibes&family=Outfit:wght@100..900&family=Tagesschrift&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    height: 100px;
+    border: 2px solid red;
+
+}
+h1{
+    /* text-align: start; */
+    /* text-align: end; */
+    text-align: center;
+    line-height: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.para-size{
+    font-size: 28px;
+    color: #050505;
+    Font-Weight:400;
+    background-color:#7AE2CF;
+    line-height: 100px;
+    letter-spacing: 5px;
+    Word-Spacing: 50px;
+    text-decoration: underline;
+    /* cursor: pointer; */
+    /* font-style: italic; */
+    /* font-style: normal; */
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    text-transform: lowercase;
+    text-indent: 200px;
+    font-family: "Tagesschrift", system-ui;
+}

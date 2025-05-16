@@ -1,0 +1,7 @@
+/* External css file */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Great+Vibes&family=Outfit:wght@100..900&display=swap');
+
+.para{
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+}
