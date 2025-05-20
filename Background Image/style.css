@@ -1,0 +1,19 @@
+.container{
+    width: 600px;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin: auto;
+    background-image: url('image/Man.jpeg');
+    background-position: center center;
+    /* background-position: top; */
+    /* background-position: bottom; */
+    /* background-position: left; */
+    /* background-position: right; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 600px 500px;
+    background-repeat: no-repeat;
+    color: white;
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+}
