@@ -1,0 +1,58 @@
+
+/* Linear Gradient */
+
+.container{
+    color: white;
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    /* background: linear-gradient(red, green, blue); */
+    /* background: linear-gradient(red 39%, green 65%, blue); */
+    /* background: linear-gradient(to right, red, green, blue); */
+
+    background: repeating-linear-gradient(red 10%, green 20%, blue 30%);
+}
+
+/* Radial Gradient */
+
+.container1{
+    margin-top: 100px;
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+
+    /* background-image: radial-gradient(circle, red, orange, yellow, blue); */
+    /* background-image: radial-gradient(closest-side, red, orange, yellow, blue); */
+    /* background-image: radial-gradient(farthest-side, red, orange, yellow, blue); */
+    background-image: radial-gradient(closest-corner, red, orange, yellow, blue);
+}
+.container2{
+    margin-top: 100px;
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    /* background-image: radial-gradient(circle, red, orange, yellow, blue); */
+    /* background-image: radial-gradient(closest-side, red, orange, yellow, blue); */
+    /* background-image: radial-gradient(farthest-side, red, orange, yellow, blue); */
+    background-image: radial-gradient(farthest-corner, red, orange, yellow, blue);
+}
+
+
+.para{
+    color: red;
+}
+
+.para1{
+    background-color: green;
+}
+
+
+.box>h1{
+    color: green;
+}
+
+/* https://www.w3schools.com/css/css3_gradients.asp */
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-image */
