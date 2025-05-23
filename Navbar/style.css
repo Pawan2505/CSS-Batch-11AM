@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+    .logo{
+            width: 20px;
+            height: 20px;
+    }
+
+    .menu{
+
+        display: flex;
+        gap: 40px;
+
+        .menu-list{
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+            }
+
+        }
+    }
+
+    .search-box{
+        padding: 5px;
+        border-radius: 5px;
+        outline: none;
+        border-width: 0;
+    }
+}
